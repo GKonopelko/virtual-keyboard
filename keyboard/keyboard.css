@@ -2,6 +2,11 @@ html {
   font-size: 10px;
 }
 
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .container {
   background-color: darkgrey;
   display: flex;
@@ -14,8 +19,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25rem;
-  width: 50rem;
+  height: 20rem;
+  width: 80rem;
   padding: 0.5rem 0;
   border-radius: 1rem;
   background: black;
@@ -33,8 +38,8 @@ html {
 
 .keyboard {
   flex: auto;
-  height: 25rem;
-  width: 50rem;
+  height: 20rem;
+  width: 80rem;
   padding: 0.5rem 0;
   border-radius: 1rem;
   background: black;
@@ -49,11 +54,10 @@ html {
 
 .keyboard__key {
   height: 3rem;
-  width: 3rem;
+  width: 4rem;
   max-width: 20rem;
   margin: 0.2rem;
   border-radius: 0.5rem;
-  /* padding: 2px; */
   background: black;
   border-color: darkgray;
   color: white;
